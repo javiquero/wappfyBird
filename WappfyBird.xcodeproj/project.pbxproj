@@ -10,19 +10,48 @@
 		54176B4F1BF10FC900EBE1F4 /* WappfyBirdImg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 54176B4D1BF10FC900EBE1F4 /* WappfyBirdImg1.png */; };
 		54176B501BF10FC900EBE1F4 /* WappfyBirdImg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 54176B4E1BF10FC900EBE1F4 /* WappfyBirdImg2.png */; };
 		548B980A1BF1164100E58345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548B98091BF1164100E58345 /* Assets.xcassets */; };
+		548B98121BF1E13D00E58345 /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FB8FE31BDFF82B00681C10 /* TVServices.framework */; };
+		548B98151BF1E13D00E58345 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548B98141BF1E13D00E58345 /* ServiceProvider.swift */; };
+		548B98191BF1E13D00E58345 /* PrettyPreview.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 548B98111BF1E13D00E58345 /* PrettyPreview.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		54FB8F991BDFD82600681C10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB8F981BDFD82600681C10 /* AppDelegate.swift */; };
 		54FB8FA01BDFD82600681C10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54FB8F9E1BDFD82600681C10 /* Main.storyboard */; };
 		54FB8FAA1BDFD85400681C10 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 54FB8FA91BDFD85400681C10 /* GameScene.sks */; };
 		54FB8FAC1BDFD85E00681C10 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB8FAB1BDFD85E00681C10 /* GameScene.swift */; };
 		54FB8FAE1BDFD92000681C10 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB8FAD1BDFD92000681C10 /* GameViewController.swift */; };
 		54FB8FB01BDFE55700681C10 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FB8FAF1BDFE55700681C10 /* SpriteKit.framework */; };
-		54FB8FE41BDFF82B00681C10 /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FB8FE31BDFF82B00681C10 /* TVServices.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		548B98171BF1E13D00E58345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54FB8F8D1BDFD82600681C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 548B98101BF1E13D00E58345;
+			remoteInfo = PrettyPreview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		548B981D1BF1E13D00E58345 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				548B98191BF1E13D00E58345 /* PrettyPreview.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		54176B4D1BF10FC900EBE1F4 /* WappfyBirdImg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WappfyBirdImg1.png; sourceTree = "<group>"; };
 		54176B4E1BF10FC900EBE1F4 /* WappfyBirdImg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WappfyBirdImg2.png; sourceTree = "<group>"; };
 		548B98091BF1164100E58345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		548B98111BF1E13D00E58345 /* PrettyPreview.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PrettyPreview.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		548B98141BF1E13D00E58345 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		548B98161BF1E13D00E58345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54FB8F951BDFD82600681C10 /* WappfyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WappfyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FB8F981BDFD82600681C10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54FB8F9F1BDFD82600681C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,6 +64,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		548B980E1BF1E13D00E58345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548B98121BF1E13D00E58345 /* TVServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		54FB8F921BDFD82600681C10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,22 +80,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54FB8FDE1BDFF82B00681C10 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54FB8FE41BDFF82B00681C10 /* TVServices.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		548B98131BF1E13D00E58345 /* PrettyPreview */ = {
+			isa = PBXGroup;
+			children = (
+				548B98141BF1E13D00E58345 /* ServiceProvider.swift */,
+				548B98161BF1E13D00E58345 /* Info.plist */,
+			);
+			path = PrettyPreview;
+			sourceTree = "<group>";
+		};
 		54FB8F8C1BDFD82600681C10 = {
 			isa = PBXGroup;
 			children = (
 				54FB8FAF1BDFE55700681C10 /* SpriteKit.framework */,
 				54FB8F971BDFD82600681C10 /* WappfyBird */,
+				548B98131BF1E13D00E58345 /* PrettyPreview */,
 				54FB8FE21BDFF82B00681C10 /* Frameworks */,
 				54FB8F961BDFD82600681C10 /* Products */,
 			);
@@ -68,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				54FB8F951BDFD82600681C10 /* WappfyBird.app */,
+				548B98111BF1E13D00E58345 /* PrettyPreview.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +139,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		548B98101BF1E13D00E58345 /* PrettyPreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548B981A1BF1E13D00E58345 /* Build configuration list for PBXNativeTarget "PrettyPreview" */;
+			buildPhases = (
+				548B980D1BF1E13D00E58345 /* Sources */,
+				548B980E1BF1E13D00E58345 /* Frameworks */,
+				548B980F1BF1E13D00E58345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrettyPreview;
+			productName = PrettyPreview;
+			productReference = 548B98111BF1E13D00E58345 /* PrettyPreview.appex */;
+			productType = "com.apple.product-type.tv-app-extension";
+		};
 		54FB8F941BDFD82600681C10 /* WappfyBird */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54FB8FA61BDFD82600681C10 /* Build configuration list for PBXNativeTarget "WappfyBird" */;
@@ -106,10 +163,12 @@
 				54FB8F911BDFD82600681C10 /* Sources */,
 				54FB8F921BDFD82600681C10 /* Frameworks */,
 				54FB8F931BDFD82600681C10 /* Resources */,
+				548B981D1BF1E13D00E58345 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				548B98181BF1E13D00E58345 /* PBXTargetDependency */,
 			);
 			name = WappfyBird;
 			productName = WappfyBird;
@@ -126,6 +185,10 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Javier Quero Ojeda";
 				TargetAttributes = {
+					548B98101BF1E13D00E58345 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 9AQEMWV38U;
+					};
 					54FB8F941BDFD82600681C10 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 9AQEMWV38U;
@@ -146,11 +209,19 @@
 			projectRoot = "";
 			targets = (
 				54FB8F941BDFD82600681C10 /* WappfyBird */,
+				548B98101BF1E13D00E58345 /* PrettyPreview */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		548B980F1BF1E13D00E58345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		54FB8F931BDFD82600681C10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -163,16 +234,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54FB8FDF1BDFF82B00681C10 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		548B980D1BF1E13D00E58345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548B98151BF1E13D00E58345 /* ServiceProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		54FB8F911BDFD82600681C10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,14 +255,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54FB8FDD1BDFF82B00681C10 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		548B98181BF1E13D00E58345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 548B98101BF1E13D00E58345 /* PrettyPreview */;
+			targetProxy = 548B98171BF1E13D00E58345 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		54FB8F9E1BDFD82600681C10 /* Main.storyboard */ = {
@@ -204,6 +277,33 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		548B981B1BF1E13D00E58345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = PrettyPreview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wappfy.bird.WappfyBird.PrettyPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		548B981C1BF1E13D00E58345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PrettyPreview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wappfy.bird.WappfyBird.PrettyPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		54FB8FA41BDFD82600681C10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -292,6 +392,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = WappfyBird/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wappfy.bird.WappfyBird;
@@ -307,6 +408,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = WappfyBird/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wappfy.bird.WappfyBird;
@@ -318,6 +420,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		548B981A1BF1E13D00E58345 /* Build configuration list for PBXNativeTarget "PrettyPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548B981B1BF1E13D00E58345 /* Debug */,
+				548B981C1BF1E13D00E58345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		54FB8F901BDFD82600681C10 /* Build configuration list for PBXProject "WappfyBird" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
